@@ -1,12 +1,16 @@
 # react-chartjs-next-compound-interest-calculator
 
-# 🚀 YYYYYYYYYY 🚀
+# 🚀 Building a Compound Interest Calculator using Chart.js + Next.js 🚀
 
 https://github.com/coding-to-music/react-chartjs-next-compound-interest-calculator
 
 https://react-chartjs-next-compound-interest-calculator.vercel.app
 
-From / By
+From / By https://dev.to/danstanhope/compound-interest-calculator-using-chartjs-react-1lac
+
+https://compoundinterest.cloud/
+
+https://github.com/danstanhope/react-compound-interest-calculator
 
 <!-- <div style="text-align:center;">
   <img src="/images/chakra.jpg" alt="Image" />
@@ -35,6 +39,37 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin git@github.com:coding-to-music/react-chartjs-next-compound-interest-calculator.git
 git push -u origin main
+```
+
+## Update NPM packages
+
+```java
+ncu
+```
+
+Output
+
+```java
+[====================] 16/16 100%
+
+ @heroicons/react                    ^1.0.5  →    ^2.0.18
+ @tailwindcss/typography             ^0.5.1  →    ^0.5.10
+ @types/node                       ^17.0.14  →    ^20.5.9
+ @types/react                      ^17.0.39  →   ^18.2.21
+ @typescript-eslint/eslint-plugin   ^5.13.0  →     ^6.6.0
+ autoprefixer                       ^10.4.2  →   ^10.4.15
+ chart.js                            ^3.7.0  →     ^4.4.0
+ eslint                               8.7.0  →     8.48.0
+ eslint-config-next                 ^12.1.0  →   ^13.4.19
+ next                              >=12.1.0  →  >=13.4.19
+ postcss                             ^8.4.6  →    ^8.4.29
+ react                               17.0.2  →     18.2.0
+ react-chartjs-2                     ^4.0.1  →     ^5.2.0
+ react-dom                           17.0.2  →     18.2.0
+ tailwindcss                        ^3.0.18  →     ^3.3.3
+ typescript                          ^4.5.5  →     ^5.2.2
+
+Run ncu -u to upgrade package.json
 ```
 
 https://www.vertex42.com/Calculators/compound-interest-calculator.html#rate-per-period
