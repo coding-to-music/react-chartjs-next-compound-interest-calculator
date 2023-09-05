@@ -1,3 +1,42 @@
+# react-chartjs-next-compound-interest-calculator
+
+# 🚀 YYYYYYYYYY 🚀
+
+https://github.com/coding-to-music/react-chartjs-next-compound-interest-calculator
+
+https://react-chartjs-next-compound-interest-calculator.vercel.app
+
+From / By
+
+<!-- <div style="text-align:center;">
+  <img src="/images/chakra.jpg" alt="Image" />
+  <p><em>Chakra Component Library with Next.js</em></p>
+</div> -->
+
+## Node Environment:
+
+```java
+nvm use 18
+```
+
+## Environment variables:
+
+```java
+none
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/react-chartjs-next-compound-interest-calculator.git
+git push -u origin main
+```
+
 https://www.vertex42.com/Calculators/compound-interest-calculator.html#rate-per-period
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
