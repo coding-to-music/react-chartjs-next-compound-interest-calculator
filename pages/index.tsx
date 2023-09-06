@@ -29,7 +29,10 @@ export default function Home() {
   return (
     <div className="flex flex-col h-screen justify-between text-slate-500">
       <Head>
-        <title>Compound Interest Calculator | compoundinterest.cloud</title>
+        <title>
+          Compound Interest Calculator |
+          react-chartjs-next-compound-interest-calculator.vercel.app
+        </title>
         <meta
           name="description"
           content="Easy way to calculate compound interest for retirement savings, loan repayments. Stuff like that."
@@ -37,31 +40,22 @@ export default function Home() {
         <meta property="og:type" content="article" />
         <meta
           property="og:title"
-          content="Compound Interest Calculator | compoundinterest.cloud"
+          content="Compound Interest Calculator | react-chartjs-next-compound-interest-calculator.vercel.app"
         />
         <meta
           property="og:description"
           content="Easy way to calculate compound interest for retirement savings, loan repayments. Stuff like that."
         />
-        <meta property="og:url" content="https://compoundinterest.cloud" />
-        <meta property="og:site_name" content="compoundinterest.cloud" />
+        <meta
+          property="og:url"
+          content="https://react-chartjs-next-compound-interest-calculator.vercel.app"
+        />
+        <meta
+          property="og:site_name"
+          content="react-chartjs-next-compound-interest-calculator.vercel.app"
+        />
 
         <link rel="icon" href="/favicon.ico" />
-        {/* <script
-          async
-          src='https://www.googletagmanager.com/gtag/js?id=G-40V30946DZ'
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-                        window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-40V30946DZ');
-          `
-          }}
-        ></script> */}
       </Head>
 
       <Header />
