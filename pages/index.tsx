@@ -1,53 +1,53 @@
-import React, { useState } from 'react'
-import { CalcCtx } from '../context/CalcValueContext'
-import { GraphCtx } from '../context/GraphDataContext'
-import { CalcProps, GraphProps } from '../types'
-import Head from 'next/head'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
-import Form from '../components/Form'
-import Graph from '../components/Graph'
-import Table from '../components/Table'
+import React, { useState } from "react";
+import { CalcCtx } from "../context/CalcValueContext";
+import { GraphCtx } from "../context/GraphDataContext";
+import { CalcProps, GraphProps } from "../types";
+import Head from "next/head";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Form from "../components/Form";
+import Graph from "../components/Graph";
+import Table from "../components/Table";
 
-export default function Home () {
+export default function Home() {
   const initialCalcProps: CalcProps = {
     initial: 50000,
     payment: 1000,
-    paymentFrequency: 'monthly',
+    paymentFrequency: "monthly",
     interest: 7,
-    compoundFrequency: 'monthly',
-    years: 25
-  }
+    compoundFrequency: "monthly",
+    years: 25,
+  };
 
   const initialGraphProps: GraphProps = {
-    values: []
-  }
+    values: [],
+  };
 
-  const [calcCtx, setCalcCtx] = useState(initialCalcProps)
-  const [graphCtx, setGraphCtx] = useState(initialGraphProps)
+  const [calcCtx, setCalcCtx] = useState(initialCalcProps);
+  const [graphCtx, setGraphCtx] = useState(initialGraphProps);
 
   return (
-    <div className='flex flex-col h-screen justify-between text-slate-500'>
+    <div className="flex flex-col h-screen justify-between text-slate-500">
       <Head>
         <title>Compound Interest Calculator | compoundinterest.cloud</title>
         <meta
-          name='description'
-          content='Easy way to calculate compound interest for retirement savings, loan repayments. Stuff like that.'
+          name="description"
+          content="Easy way to calculate compound interest for retirement savings, loan repayments. Stuff like that."
         />
-        <meta property='og:type' content='article' />
+        <meta property="og:type" content="article" />
         <meta
-          property='og:title'
-          content='Compound Interest Calculator | compoundinterest.cloud'
+          property="og:title"
+          content="Compound Interest Calculator | compoundinterest.cloud"
         />
         <meta
-          property='og:description'
-          content='Easy way to calculate compound interest for retirement savings, loan repayments. Stuff like that.'
+          property="og:description"
+          content="Easy way to calculate compound interest for retirement savings, loan repayments. Stuff like that."
         />
-        <meta property='og:url' content='https://compoundinterest.cloud' />
-        <meta property='og:site_name' content='compoundinterest.cloud' />
+        <meta property="og:url" content="https://compoundinterest.cloud" />
+        <meta property="og:site_name" content="compoundinterest.cloud" />
 
-        <link rel='icon' href='/favicon.ico' />
-        <script
+        <link rel="icon" href="/favicon.ico" />
+        {/* <script
           async
           src='https://www.googletagmanager.com/gtag/js?id=G-40V30946DZ'
         ></script>
@@ -61,16 +61,16 @@ export default function Home () {
             gtag('config', 'G-40V30946DZ');
           `
           }}
-        ></script>
+        ></script> */}
       </Head>
 
       <Header />
-      <main className='mb-auto max-w-7xl mx-auto'>
-        <div className='my-md sm:my-xxl mt-24 mb-12'>
-          <h1 className='text-5xl font-bold text-center text-slate-800 mb-4'>
+      <main className="mb-auto max-w-7xl mx-auto">
+        <div className="my-md sm:my-xxl mt-24 mb-12">
+          <h1 className="text-5xl font-bold text-center text-slate-800 mb-4">
             Compound Interest Calculator.
           </h1>
-          <p className='text-center'>
+          <p className="text-center">
             Get your money in the market and watch it grow over time. We&apos;re
             talking stacks on stacks on stacks.
           </p>
@@ -83,11 +83,11 @@ export default function Home () {
           </CalcCtx.Provider>
         </div>
         <div>
-          <div className='flex flex-col sm:flex-row justify-center items-center'></div>
+          <div className="flex flex-col sm:flex-row justify-center items-center"></div>
         </div>
         <div></div>
         <Footer />
       </main>
     </div>
-  )
+  );
 }
